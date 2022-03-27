@@ -7,9 +7,41 @@ The purpose of this analysis is well defined
 Results:
 
 
-|                       | Predicted (High Risk	 | Predicted (Low Risk) |
-| Actual (High Risk)| git status | git status|
-| Actual (Low Risk) | git diff| git diff|
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|71   | 30  |
+| Actual (Low Risk)| 2030  | 15074
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|71   | 30  |
+| Actual (Low Risk)| 2030  | 15074
+
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|71   | 30  |
+| Actual (Low Risk)| 2030  | 15074
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|71   | 30  |
+| Actual (Low Risk)| 2030  | 15074
+
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|71   | 30  |
+| Actual (Low Risk)| 2030  | 15074
+
+
+
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|93 | 8 |
+| Actual (Low Risk)| 995 | 16109|
 
 
 
