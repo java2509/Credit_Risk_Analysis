@@ -8,8 +8,8 @@ Results:
 
 
 |                       | Predicted (High Risk	 | Predicted (Low Risk) |
-| Actual (High Risk)    | git status             | git status           |
-| Actual (Low Risk)     | git diff               | git diff             |
+| Actual (High Risk)| git status | git status|
+| Actual (Low Risk) | git diff| git diff|
 
 
 
