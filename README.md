@@ -6,23 +6,29 @@ The purpose of this analysis is well defined
 
 Results:
 
+1.) Naive Random Oversampling:
 
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|73   | 28  |
+| Actual (Low Risk)| 7324  | 9780
+
+
+2.) SMOTE Oversampling
+
+|  |Predicted( High Risk)| Predicted(Low Risk)|
+| :---         |      :---      |       ---  |
+| Actual (High Risk)|73   | 28  |
+| Actual (Low Risk)| 7324  | 9780
+
+3.) Undersampling
 
 |  |Predicted( High Risk)| Predicted(Low Risk)|
 | :---         |      :---      |       ---  |
 | Actual (High Risk)|71   | 30  |
 | Actual (Low Risk)| 2030  | 15074
 
-|  |Predicted( High Risk)| Predicted(Low Risk)|
-| :---         |      :---      |       ---  |
-| Actual (High Risk)|71   | 30  |
-| Actual (Low Risk)| 2030  | 15074
-
-
-|  |Predicted( High Risk)| Predicted(Low Risk)|
-| :---         |      :---      |       ---  |
-| Actual (High Risk)|71   | 30  |
-| Actual (Low Risk)| 2030  | 15074
+4.) Combination (Over and Under) Sampling
 
 |  |Predicted( High Risk)| Predicted(Low Risk)|
 | :---         |      :---      |       ---  |
