@@ -6,7 +6,7 @@ The purpose of this analysis is well defined
 
 Results:
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
+There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
 Summary:
 
