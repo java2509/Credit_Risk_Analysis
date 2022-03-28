@@ -150,7 +150,8 @@ Analyzing the results we can conclude the following:
 In conclusion based on the above metrics above I would recommend using the Easy Ensemble Classifier method to predict the Credit Risk.
 
 
+### Code
 
-
-
+[Credit Risk Ensemble](https://github.com/java2509/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
+[]()
 
