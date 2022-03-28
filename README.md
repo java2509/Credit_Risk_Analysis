@@ -33,15 +33,13 @@ The following model outputs were analyzed for all 6 models.
 |  |Predicted( High Risk)| Predicted(Low Risk)|
 | :---         |      :---      |       ---  |
 | Actual (High Risk)|73   | 28  |
-| Actual (Low Risk)| 7,069  | 10,035
+| Actual (Low Risk)| 7,324 | 9,780
 
 
 |             | Precision | Recall | F1 Score|
 | :---        |     :--- |    :---   |:---    |
 | High Risk   | 0.01    | 0.72  |0.02
-| Low Risk    | 1.00     | .059    | 0.74
-
-
+| Low Risk    | 1.00     | .057    | 0.73
 
 2.) SMOTE Oversampling
 
@@ -116,5 +114,34 @@ The following model outputs were analyzed for all 6 models.
 
 
 Summary:
+
+Screenshots of results below
+
+
+1.) Naive Random Oversampling:
+![Naive Random Oversampling](https://user-images.githubusercontent.com/93900628/160312317-b8863a91-b298-42df-bd84-f94d13700653.png)
+
+2.) SMOTE Oversampling
+![Screen Shot 2022-03-27 at 8 43 39 PM](https://user-images.githubusercontent.com/93900628/160312628-13a2de46-592f-4d51-87e0-fc14cc3f0557.png)
+
+3.) Undersamping
+![Screen Shot 2022-03-27 at 8 46 01 PM](https://user-images.githubusercontent.com/93900628/160312839-38b58e6b-55ea-4e88-b687-9f0889058214.png)
+
+4.) SMOTEEN Combination Over and Undersampling
+![Screen Shot 2022-03-27 at 8 46 56 PM](https://user-images.githubusercontent.com/93900628/160312900-21986cb1-e4ca-4ee2-a690-c545e985e8cb.png)
+
+5.) Easy Ensemble Classifier
+![Screen Shot 2022-03-27 at 8 48 38 PM](https://user-images.githubusercontent.com/93900628/160313010-1819f1f6-408c-459f-ba39-8b03b531309b.png)
+
+6.) Balanced Random Forest Classifier
+![Screen Shot 2022-03-27 at 8 51 20 PM](https://user-images.githubusercontent.com/93900628/160313289-157be44c-d4f0-4104-b0fa-3519922f4483.png)
+
+
+In summary my reccomendation would be the Easy Esemble Classifier:
+
+1.) It has the highest accuracy of 0.93
+2.)
+
+
 
 
