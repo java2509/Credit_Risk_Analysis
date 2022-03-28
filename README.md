@@ -153,5 +153,6 @@ In conclusion based on the above metrics above I would recommend using the Easy 
 ### Code
 
 [Credit Risk Ensemble](https://github.com/java2509/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
+
 [Credit Risk Resampling](https://github.com/java2509/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
 
