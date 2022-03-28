@@ -15,9 +15,9 @@ The following models ran for this analysis:
 
 The following model outputs were analyzed for all 6 models.
 
-- Accuracy score : measures how many observations in the testing set were correctly predicted by the model
+- Accuracy score : measures how many observations in the testing set were correctly predicted by the model (i.e the higher the better)
   Accuracy = TP+TN/TP+FP+FN+TN
-- Precision : measure of how reliable a positive classification is
+- Precision : measure of how reliable a positive classification is (i.e the higher the better
   Precision = TP/(TP + FP)
 - Recall/sensitivity : measure of predicted positive observations to the all observations in actual class
   Recall = TP / (TP + FN)
@@ -137,10 +137,19 @@ Screenshots of results below
 ![Screen Shot 2022-03-27 at 8 51 20 PM](https://user-images.githubusercontent.com/93900628/160313289-157be44c-d4f0-4104-b0fa-3519922f4483.png)
 
 
-In summary my reccomendation would be the Easy Esemble Classifier:
+Analyzing the results we can conclude the following:
 
-1.) It has the highest accuracy of 0.93
-2.)
+1.) Accuracy: The Easy Ensemble Classifier model has the highest accuracy of 0.93, with the Balanced Random Forest Classifier has an accuracy rate of 0.79
+
+2.) Precision: All the models have an average precision of 0.99 which means that the models correctly identified the majority of high-risk loan applications.
+
+3.)Recall: The Easy Ensemble Classifier has an average recall score of 0.94 which is the highest of all the different methods.
+
+4.) F1 Score: The Easy Ensemble Classifier has an average recall score of 0.97 which is the highest of all the different method which also means that there is not a huge imbalance between the precision and recall scores.
+
+In conclusion based on the above metrics above I would recommend using the Easy Ensemble Classifier method to predict the Credit Risk.
+
+
 
 
 
