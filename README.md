@@ -1,8 +1,23 @@
 # Credit_Risk_Analysis
+Overview of the loan pred
+iction risk analysis:
 
-Overview of the loan prediction risk analysis:
+Credit risk is an unbalanced classification problem, as good loans outnumber risky loans. 
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+Machine learning methods are applied to train and test models with unbalanced classes and determine which model is superior at predicting credit risk.
+
+Imbalanced-learn and scikit-learn libraries used to build and test models using resampling.
+
+The following models ran for this analysis: 
+
+Logistic Regression - Random Oversampling
+Logistic Regression - SMOTE Oversampling
+Logistic Regression - Undersamping
+Logistic Regression - SMOTEEN Combination Over and Undersampling
+Balanced Random Forest Classifier
+Easy Ensemble Classifier
+
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore,different techniques are needed to train and evaluate models with unbalanced classes. Using imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
