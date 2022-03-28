@@ -139,15 +139,15 @@ Screenshots of results below
 
 Analyzing the results we can conclude the following:
 
-1.) Accuracy: The Easy Ensemble Classifier model has the highest accuracy of 0.93, with the Balanced Random Forest Classifier has an accuracy rate of 0.79
+1.) Accuracy: The Easy Ensemble Classifier model has the highest accuracy of 0.93,the Balanced Random Forest Classifier model has an accuracy rate of 0.79. The Undersampling model has the lowest accuracy of 0.54.
 
 2.) Precision: All the models have an average precision of 0.99 which means that the models correctly identified the majority of high-risk loan applications.
 
-3.)Recall: The Easy Ensemble Classifier has an average recall score of 0.94 which is the highest of all the different methods.
+3.)Recall: The Easy Ensemble Classifier has an average recall score of 0.94 which is the highest of all the different methods, the next best score is the Balanced Random Forest Classifier with 0.88.
 
 4.) F1 Score: The Easy Ensemble Classifier has an average recall score of 0.97 which is the highest of all the different method which also means that there is not a huge imbalance between the precision and recall scores.
 
-In conclusion based on the above metrics above I would recommend using the Easy Ensemble Classifier method to predict the Credit Risk.
+In conclusion based on the above metrics I would recommend using the Easy Ensemble Classifier method to predict the Credit Risk.
 
 
 ### Code
