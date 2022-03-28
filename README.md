@@ -109,7 +109,6 @@ The following model outputs were analyzed for all 6 models.
 | Actual (High Risk)|93 | 8 |
 | Actual (Low Risk)| 995 | 16,109 |
 
-
 |             | Precision | Recall | F1 Score|
 | :---        |     :--- |    :---   |:---    |
 | High Risk   |   0.09  | 0.92  | 0.16|
@@ -118,8 +117,4 @@ The following model outputs were analyzed for all 6 models.
 
 Summary:
 
-There is a summary of the results
 
-
-
-There is a recommendation on which model to use, or there is no recommendation with a justification
